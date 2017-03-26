@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CocoapodsSubspecBug_Example' do
-  pod 'CocoapodsSubspecBug', :path => '../'
+  pod 'CocoapodsSubspecBug/Two', :path => '../'
 
   target 'CocoapodsSubspecBug_Tests' do
     inherit! :search_paths

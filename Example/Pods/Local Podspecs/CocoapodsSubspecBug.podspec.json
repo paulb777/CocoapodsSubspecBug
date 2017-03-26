@@ -1,0 +1,44 @@
+{
+  "name": "CocoapodsSubspecBug",
+  "version": "0.1.0",
+  "summary": "A short description of CocoapodsSubspecBug.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/paulb777/CocoapodsSubspecBug",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Paul Beusterien": "paul.beusterien@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/paulb777/CocoapodsSubspecBug.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "One",
+  "subspecs": [
+    {
+      "name": "One",
+      "dependencies": {
+        "Root/One": [
+
+        ]
+      }
+    },
+    {
+      "name": "Two",
+      "source_files": "CocoapodsSubspecBug/Classes/**/*",
+      "dependencies": {
+        "CocoapodsSubspecBug/One": [
+
+        ],
+        "GoogleToolboxForMac/NSDictionary+URLArguments": [
+          "~> 2.1"
+        ]
+      }
+    }
+  ]
+}
