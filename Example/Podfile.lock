@@ -1,9 +1,7 @@
 PODS:
-  - CocoapodsSubspecBug/One (0.1.0):
-    - Root/One
-  - CocoapodsSubspecBug/Two (0.1.0):
-    - CocoapodsSubspecBug/One
+  - CocoapodsSubspecBug (0.1.0):
     - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - Other
   - GoogleToolboxForMac/DebugUtils (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/Defines (2.1.1)
@@ -14,24 +12,24 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
-  - Root/One (0.1.0):
+  - Other (0.1.0):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
 
 DEPENDENCIES:
-  - CocoapodsSubspecBug/Two (from `../`)
-  - Root/One (from `../`)
+  - CocoapodsSubspecBug (from `../`)
+  - Other (from `../`)
 
 EXTERNAL SOURCES:
   CocoapodsSubspecBug:
     :path: ../
-  Root:
+  Other:
     :path: ../
 
 SPEC CHECKSUMS:
-  CocoapodsSubspecBug: 1f80c55b23443a4fe41546e4bc07d2e3275359bc
+  CocoapodsSubspecBug: a8579b73d35b10cefc9dc3dcfa21ddffc1e6965a
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
-  Root: ecdce5285623fc5f46fb6c64fdf2f5bf98632b00
+  Other: 2ebe891ad81d980c5379f681c2bf43af09baa025
 
-PODFILE CHECKSUM: 1f4ca1adfe822bd270709ff66d6e1d3d5bdcfcfa
+PODFILE CHECKSUM: 142db75f83b94c67d034403fa5f8dfff4ac5f2eb
 
 COCOAPODS: 1.2.0

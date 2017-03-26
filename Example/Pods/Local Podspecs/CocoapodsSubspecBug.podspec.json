@@ -18,27 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "default_subspecs": "One",
-  "subspecs": [
-    {
-      "name": "One",
-      "dependencies": {
-        "Root/One": [
+  "source_files": "CocoapodsSubspecBug/Classes/ReplaceMe.m",
+  "dependencies": {
+    "Other": [
 
-        ]
-      }
-    },
-    {
-      "name": "Two",
-      "source_files": "CocoapodsSubspecBug/Classes/**/*",
-      "dependencies": {
-        "CocoapodsSubspecBug/One": [
-
-        ],
-        "GoogleToolboxForMac/NSDictionary+URLArguments": [
-          "~> 2.1"
-        ]
-      }
-    }
-  ]
+    ],
+    "GoogleToolboxForMac/NSDictionary+URLArguments": [
+      "~> 2.1"
+    ]
+  }
 }

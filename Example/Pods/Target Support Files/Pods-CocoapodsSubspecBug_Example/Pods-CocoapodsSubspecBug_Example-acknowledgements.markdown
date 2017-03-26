@@ -207,7 +207,7 @@ This application makes use of the following third party libraries:
    limitations under the License.
 
 
-## Root
+## Other
 
 Copyright (c) 2017 Paul Beusterien <paulbeusterien@google.com>
 

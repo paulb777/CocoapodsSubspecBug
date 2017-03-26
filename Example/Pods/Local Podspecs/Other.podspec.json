@@ -1,8 +1,8 @@
 {
-  "name": "Root",
+  "name": "Other",
   "version": "0.1.0",
-  "summary": "Root is a demonstration dependendent pod.",
-  "description": "Root is a demonstration dependent pod for CocoapodsSubspecBug",
+  "summary": "Other is a demonstration root pod.",
+  "description": "Other is a demonstration root pod for CocoapodsSubspecBug",
   "homepage": "https://github.com/paulb777/CocoapodsSubspecBug",
   "license": {
     "type": "MIT",
@@ -18,15 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "default_subspecs": "One",
-  "subspecs": [
-    {
-      "name": "One",
-      "dependencies": {
-        "GoogleToolboxForMac/NSData+zlib": [
-          "~> 2.1"
-        ]
-      }
-    }
-  ]
+  "dependencies": {
+    "GoogleToolboxForMac/NSData+zlib": [
+      "~> 2.1"
+    ]
+  }
 }

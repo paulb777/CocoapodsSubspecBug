@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06D8CEE579F72DE00328BEC0D5F2EE36 /* CocoapodsSubspecBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58CEFDE60E7D222F7930AAC8D5EFF4F /* CocoapodsSubspecBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06D8CEE579F72DE00328BEC0D5F2EE36 /* CocoapodsSubspecBug-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D45E2B54DB2BE9E03BDF03D070BFA /* CocoapodsSubspecBug-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F54A1FD63488D95D806884E38EC75E8 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 429CCBAB7C1BE2D24DB615FC7F502CBC /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18D0C7EF5D6FD47D7CE4C59DD6D83AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721D368E27F34F4F0300EAB324A3F8D0 /* Foundation.framework */; };
 		240B53DDFC32DA63757F2D7CC44D7F83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721D368E27F34F4F0300EAB324A3F8D0 /* Foundation.framework */; };
@@ -33,10 +33,10 @@
 		D5E7A9BA52113461552A6213C028B2A6 /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A25D0F475D9A2B0746E45D11BD288E /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC506D41304859A020157DFAFA5D404 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = D39051B451A53AD56F357142A44DB794 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBEA5422FF69D0710398373AD0C592CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721D368E27F34F4F0300EAB324A3F8D0 /* Foundation.framework */; };
-		EC3DA34603C8C37A9E466D89D296F8DC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 937E107E07423626BEEC661ED415129D /* ReplaceMe.m */; };
+		EC3DA34603C8C37A9E466D89D296F8DC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D1060D34735DB4C33214417908D4D /* ReplaceMe.m */; };
 		EF146CE555592C77BBCD0D8EF07F4882 /* GoogleToolboxForMac-f0850809-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A0C179BA5CD7467DF17F8E112BB1B6 /* GoogleToolboxForMac-f0850809-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F54EC7109557F389C1994199FC92497F /* GoogleToolboxForMac-Defines-NSData+zlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC753D5E1B1E13D4BAFBAE34C5841AC /* GoogleToolboxForMac-Defines-NSData+zlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAD4CEA1CA5C9EDD5ED5967B717B6FB6 /* CocoapodsSubspecBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FDE7AAEC262281DF7D0B68205076A /* CocoapodsSubspecBug-dummy.m */; };
+		FAD4CEA1CA5C9EDD5ED5967B717B6FB6 /* CocoapodsSubspecBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F001AD35DE3F4CF17426869F6AE3F8AD /* CocoapodsSubspecBug-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,14 +71,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F7789CB0D1A5D863EA01C0CF44A77B /* CocoapodsSubspecBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoapodsSubspecBug.modulemap; sourceTree = "<group>"; };
 		071CE049AC37DCA5B24FABC026434254 /* GoogleToolboxForMac-Defines-NSData+zlib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-Defines-NSData+zlib-prefix.pch"; sourceTree = "<group>"; };
 		08F41712D5E599547BC29D12B3E10086 /* GoogleToolboxForMac-f0850809-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GoogleToolboxForMac-f0850809-dummy.m"; path = "../GoogleToolboxForMac-f0850809/GoogleToolboxForMac-f0850809-dummy.m"; sourceTree = "<group>"; };
 		0B8F62BE11B553383553C1A75933DD23 /* GoogleToolboxForMac-Defines-NSData+zlib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "GoogleToolboxForMac-Defines-NSData+zlib.modulemap"; sourceTree = "<group>"; };
 		0ECFB97EECAF9A1086CF0513C6716F43 /* Pods-CocoapodsSubspecBug_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoapodsSubspecBug_Example-dummy.m"; sourceTree = "<group>"; };
 		125CE005EF5DC0472937595861049530 /* Pods-CocoapodsSubspecBug_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsSubspecBug_Example-resources.sh"; sourceTree = "<group>"; };
+		1412EA35641C0A2BA701EE59AB2ED68B /* CocoapodsSubspecBug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoapodsSubspecBug.xcconfig; sourceTree = "<group>"; };
 		19C10056BDFE7F7B358EA89FD83CD6AE /* Pods_CocoapodsSubspecBug_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoapodsSubspecBug_Example.framework; path = "Pods-CocoapodsSubspecBug_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C3806FC8C6FAC7ACBEEF71B7E11B048 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E84525E4A194F1979538A16CAF0F57D /* Pods-CocoapodsSubspecBug_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoapodsSubspecBug_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1FF1D39AEEC6AFFE7606CAD53582C923 /* GoogleToolboxForMac-f0850809.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GoogleToolboxForMac-f0850809.xcconfig"; path = "../GoogleToolboxForMac-f0850809/GoogleToolboxForMac-f0850809.xcconfig"; sourceTree = "<group>"; };
 		262BA68E8342C19A6B6010F1EA7C2326 /* GoogleToolboxForMac-f0850809.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "GoogleToolboxForMac-f0850809.modulemap"; path = "../GoogleToolboxForMac-f0850809/GoogleToolboxForMac-f0850809.modulemap"; sourceTree = "<group>"; };
@@ -103,30 +102,31 @@
 		74756F2AD02A457F56802B6F387F292D /* Pods_Root_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Root_Example.framework; path = "Pods-Root_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7771E8479F3EE6B78304C0AC98FE8629 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		7DF8155496C3DB0DB68732224DDD7900 /* Pods-Root_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Root_Example.modulemap"; sourceTree = "<group>"; };
+		843D45E2B54DB2BE9E03BDF03D070BFA /* CocoapodsSubspecBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoapodsSubspecBug-umbrella.h"; sourceTree = "<group>"; };
 		8DA03317A24D622B3E1F0E511DDDDE54 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-f0850809.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E1E03FFEDEB3ADDC013DEC29D440E6 /* Pods-Root_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Root_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		928DD4DD4181614C8FA62D73491E53DE /* CocoapodsSubspecBug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoapodsSubspecBug-prefix.pch"; sourceTree = "<group>"; };
 		929EF8A9629A6F097228E7205FF20231 /* Pods-CocoapodsSubspecBug_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoapodsSubspecBug_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		937E107E07423626BEEC661ED415129D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96B3E0A12DDEAF897EC64DC32871238A /* Pods-Root_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Root_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9950D87E21A19D67980DEFF04F238761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../GoogleToolboxForMac-f0850809/Info.plist"; sourceTree = "<group>"; };
 		AA67CF998455452EA1AD60A3B192D6F3 /* Pods-Root_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Root_Example-dummy.m"; sourceTree = "<group>"; };
 		ACFA4A3923383CD6D62B352AD239C897 /* GoogleToolboxForMac-Defines-NSData+zlib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-Defines-NSData+zlib-dummy.m"; sourceTree = "<group>"; };
+		AD3D1060D34735DB4C33214417908D4D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		AD8FB00E87FD19EE9C5D2A217E3A9B58 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
-		BB65653B06CD917C8A7CAD162B62571C /* CocoapodsSubspecBug-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoapodsSubspecBug-prefix.pch"; sourceTree = "<group>"; };
 		C2EC3FA93E9A7AF36695EE396DFF0B53 /* Pods-CocoapodsSubspecBug_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoapodsSubspecBug_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C34A1062000B2F76353C3589507BFA3B /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
 		C95E839A830DBF8E4E484663FABA5DDA /* Pods-Root_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Root_Example-resources.sh"; sourceTree = "<group>"; };
 		D0B76B24AD4C97F518C10E272750F825 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D39051B451A53AD56F357142A44DB794 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		D83FDE7AAEC262281DF7D0B68205076A /* CocoapodsSubspecBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoapodsSubspecBug-dummy.m"; sourceTree = "<group>"; };
+		D5325A0267AC60A6F15FBAD76AE0C7C2 /* CocoapodsSubspecBug.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoapodsSubspecBug.modulemap; sourceTree = "<group>"; };
 		D892D7B5651A4C623EDDCFA9E72D5F06 /* Pods-Root_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Root_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D933BDABA55BEFEEF2E8FC30FFA4745B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = "GoogleToolboxForMac-Defines-NSData+zlib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB5121B372033C6DF4EDA89238E1787 /* GoogleToolboxForMac-Defines-NSData+zlib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleToolboxForMac-Defines-NSData+zlib.xcconfig"; sourceTree = "<group>"; };
 		E03D8B71C3AE523D26C65AF0F82B9476 /* Pods-CocoapodsSubspecBug_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CocoapodsSubspecBug_Example.modulemap"; sourceTree = "<group>"; };
-		E58CEFDE60E7D222F7930AAC8D5EFF4F /* CocoapodsSubspecBug-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoapodsSubspecBug-umbrella.h"; sourceTree = "<group>"; };
-		EC42A4F8673AD6CF1F095559A2B26DA8 /* CocoapodsSubspecBug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoapodsSubspecBug.xcconfig; sourceTree = "<group>"; };
+		E3F887B473E99E7BC83D411F6F2A36BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECC0DBD447D908D4057247F9F3191D0C /* CocoapodsSubspecBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoapodsSubspecBug.framework; path = CocoapodsSubspecBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F001AD35DE3F4CF17426869F6AE3F8AD /* CocoapodsSubspecBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoapodsSubspecBug-dummy.m"; sourceTree = "<group>"; };
 		F8D52AC7E31D0D701BADBD16F4960528 /* Pods-CocoapodsSubspecBug_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoapodsSubspecBug_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +175,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0904A0261C4EA9C6EE7AA4C3BF8B2038 /* CocoapodsSubspecBug */ = {
+			isa = PBXGroup;
+			children = (
+				7359B18508267C207DDFE1066D7609DB /* CocoapodsSubspecBug */,
+				7885D1791338AF32BD672ABC1D7CA112 /* Support Files */,
+			);
+			name = CocoapodsSubspecBug;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		19132604995706B0FBD1A16EA5FA4A02 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,24 +219,6 @@
 				429CCBAB7C1BE2D24DB615FC7F502CBC /* GTMNSString+URLArguments.m */,
 			);
 			name = "NSString+URLArguments";
-			sourceTree = "<group>";
-		};
-		2BED127015BF862330F8A68EA4565F88 /* CocoapodsSubspecBug */ = {
-			isa = PBXGroup;
-			children = (
-				2E530B2B0CF3E1A5341CBD83E09273F3 /* Classes */,
-			);
-			name = CocoapodsSubspecBug;
-			path = CocoapodsSubspecBug;
-			sourceTree = "<group>";
-		};
-		2E530B2B0CF3E1A5341CBD83E09273F3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				937E107E07423626BEEC661ED415129D /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		3C629296FBE198B86D45234CC3341441 /* iOS */ = {
@@ -264,28 +256,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		517FE149A629C1DD866EB5728FD8105E /* Two */ = {
-			isa = PBXGroup;
-			children = (
-				2BED127015BF862330F8A68EA4565F88 /* CocoapodsSubspecBug */,
-			);
-			name = Two;
-			sourceTree = "<group>";
-		};
-		53643A3BB69B393C9810B3BDFC0B34B8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				06F7789CB0D1A5D863EA01C0CF44A77B /* CocoapodsSubspecBug.modulemap */,
-				EC42A4F8673AD6CF1F095559A2B26DA8 /* CocoapodsSubspecBug.xcconfig */,
-				D83FDE7AAEC262281DF7D0B68205076A /* CocoapodsSubspecBug-dummy.m */,
-				BB65653B06CD917C8A7CAD162B62571C /* CocoapodsSubspecBug-prefix.pch */,
-				E58CEFDE60E7D222F7930AAC8D5EFF4F /* CocoapodsSubspecBug-umbrella.h */,
-				1C3806FC8C6FAC7ACBEEF71B7E11B048 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CocoapodsSubspecBug";
-			sourceTree = "<group>";
-		};
 		5D7C402B0AEC7A3FFD77D2D40D19E660 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,25 +281,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7359B18508267C207DDFE1066D7609DB /* CocoapodsSubspecBug */ = {
+			isa = PBXGroup;
+			children = (
+				7836C4B3F0E875F04E8150A0381CB251 /* Classes */,
+			);
+			name = CocoapodsSubspecBug;
+			path = CocoapodsSubspecBug;
+			sourceTree = "<group>";
+		};
+		7836C4B3F0E875F04E8150A0381CB251 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D1060D34735DB4C33214417908D4D /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7885D1791338AF32BD672ABC1D7CA112 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5325A0267AC60A6F15FBAD76AE0C7C2 /* CocoapodsSubspecBug.modulemap */,
+				1412EA35641C0A2BA701EE59AB2ED68B /* CocoapodsSubspecBug.xcconfig */,
+				F001AD35DE3F4CF17426869F6AE3F8AD /* CocoapodsSubspecBug-dummy.m */,
+				928DD4DD4181614C8FA62D73491E53DE /* CocoapodsSubspecBug-prefix.pch */,
+				843D45E2B54DB2BE9E03BDF03D070BFA /* CocoapodsSubspecBug-umbrella.h */,
+				E3F887B473E99E7BC83D411F6F2A36BB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CocoapodsSubspecBug";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9A290E990AAD152AB0263C21F7C09154 /* Development Pods */,
+				D1E78587F4489018AFC7B4020B09E806 /* Development Pods */,
 				49630CC3BFA589B7C5831DF55137E47E /* Frameworks */,
 				6CFF87328487FD455C62567EB43A47B9 /* Pods */,
 				CD960D9DDCE6082ABE5FDE4EAFC24DBA /* Products */,
 				19132604995706B0FBD1A16EA5FA4A02 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9A290E990AAD152AB0263C21F7C09154 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FD70101B12A528F91A7A2954B3973CB9 /* CocoapodsSubspecBug */,
-				BE761A18A334CE52DAA3EA7BEB9F10B0 /* Root */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9CFF5F8D0C282F03B8F91BB43C665BCF /* Support Files */ = {
@@ -361,14 +354,6 @@
 			name = "NSDictionary+URLArguments";
 			sourceTree = "<group>";
 		};
-		BE761A18A334CE52DAA3EA7BEB9F10B0 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Root;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CD960D9DDCE6082ABE5FDE4EAFC24DBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +364,15 @@
 				74756F2AD02A457F56802B6F387F292D /* Pods_Root_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D1E78587F4489018AFC7B4020B09E806 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0904A0261C4EA9C6EE7AA4C3BF8B2038 /* CocoapodsSubspecBug */,
+				D6FAAF251681FF11B64D57A43E9BC638 /* Other */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D5FEC5A54FB9309EF13677B2890F2A90 /* GoogleToolboxForMac */ = {
@@ -395,6 +389,14 @@
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
+		D6FAAF251681FF11B64D57A43E9BC638 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		F1569AF321AE752382A8D130DC0BB210 /* DebugUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,16 +405,6 @@
 				2C559EC055336FF3E0A194F6ADEECB72 /* GTMMethodCheck.h */,
 			);
 			name = DebugUtils;
-			sourceTree = "<group>";
-		};
-		FD70101B12A528F91A7A2954B3973CB9 /* CocoapodsSubspecBug */ = {
-			isa = PBXGroup;
-			children = (
-				53643A3BB69B393C9810B3BDFC0B34B8 /* Support Files */,
-				517FE149A629C1DD866EB5728FD8105E /* Two */,
-			);
-			name = CocoapodsSubspecBug;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -830,7 +822,7 @@
 		};
 		76C258F939B8AC4A4EC6A015A4DFD78D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC42A4F8673AD6CF1F095559A2B26DA8 /* CocoapodsSubspecBug.xcconfig */;
+			baseConfigurationReference = 1412EA35641C0A2BA701EE59AB2ED68B /* CocoapodsSubspecBug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -945,7 +937,7 @@
 		};
 		C526084C5A4E68CBFDBB7A6E8EB06B90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC42A4F8673AD6CF1F095559A2B26DA8 /* CocoapodsSubspecBug.xcconfig */;
+			baseConfigurationReference = 1412EA35641C0A2BA701EE59AB2ED68B /* CocoapodsSubspecBug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
