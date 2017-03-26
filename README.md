@@ -1,24 +1,39 @@
 # CocoapodsSubspecBug
 
-[![CI Status](http://img.shields.io/travis/Paul Beusterien/CocoapodsSubspecBug.svg?style=flat)](https://travis-ci.org/Paul Beusterien/CocoapodsSubspecBug)
-[![Version](https://img.shields.io/cocoapods/v/CocoapodsSubspecBug.svg?style=flat)](http://cocoapods.org/pods/CocoapodsSubspecBug)
-[![License](https://img.shields.io/cocoapods/l/CocoapodsSubspecBug.svg?style=flat)](http://cocoapods.org/pods/CocoapodsSubspecBug)
-[![Platform](https://img.shields.io/cocoapods/p/CocoapodsSubspecBug.svg?style=flat)](http://cocoapods.org/pods/CocoapodsSubspecBug)
+## Introduction
 
-## Example
+This project demonstrates a failure of Cocoapods to create the correct framework header paths when merging subspecs in an Xcode workspace generated from two podspecs.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Reproduction
 
-## Requirements
+1. `git clone git@github.com:paulb777/CocoapodsSubspecBug.git`
+1. `cd CocoapodsSubspecBug/Example/`
+1. `pod update`
+1. `open CocoapodsSubspecBug.xcworkspace/`
+1. Command-B to run the CocoapodsSubspecBug-Example scheme. Note that it succeeds.
+1. Change the scheme to Root-Example. Command-B and note success.
+1. Change the scheme back to CocoapodsSubspecBug-Example
+1. Shift-Command-K to clean
+1. Command-B and note compiler failure:
 
-## Installation
+`/Users/paulbeusterien/demo/CocoapodsSubspecBug/CocoapodsSubspecBug/Classes/ReplaceMe.m:2:9: fatal error: 'GoogleToolboxForMac/GTMNSDictionary+URLArguments.h' file not found
+#import <GoogleToolboxForMac/GTMNSDictionary+URLArguments.h>
+        ^
+1 error generated.`
 
-CocoapodsSubspecBug is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Analysis
 
-```ruby
-pod "CocoapodsSubspecBug"
-```
+Look at the CompileC command for ReplaceMe.m. Note that the build command contains `-F/Users/paulbeusterien/Library/Developer/Xcode/DerivedData/CocoapodsSubspecBug-aunbyqesijzafqbkozlvtxnfesnu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac-Defines-NSData+zlib -F/Users/paulbeusterien/Library/Developer/Xcode/DerivedData/CocoapodsSubspecBug-aunbyqesijzafqbkozlvtxnfesnu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac-f0850809`. When the build fails, both of these paths contain a version of the GoogleToolboxForMac framework. clang chooses to use the first, which doesn't have all of the headers and the compile fails. The first path was left over from the build of the Root-Example scheme and should not be included in the CocoapodsSubspecBug-Example scheme build.
+
+~/demo/CocoapodsSubspecBug/Example (master) $ ls /Users/paulbeusterien/Library/Developer/Xcode/DerivedData/CocoapodsSubspecBug-aunbyqesijzafqbkozlvtxnfesnu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac-Defines-NSData+zlib/GoogleToolboxForMac.framework/Headers/
+
+GTMDefines.h						GoogleToolboxForMac-Defines-NSData+zlib-umbrella.h
+GTMNSData+zlib.h
+
+~/demo/CocoapodsSubspecBug/Example (master) $ ls /Users/paulbeusterien/Library/Developer/Xcode/DerivedData/CocoapodsSubspecBug-aunbyqesijzafqbkozlvtxnfesnu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac-f0850809/GoogleToolboxForMac.framework/Headers/
+
+GTMDebugSelectorValidation.h		GTMDefines.h				GTMNSData+zlib.h			GTMNSString+URLArguments.h
+GTMDebugThreadValidation.h		GTMMethodCheck.h			GTMNSDictionary+URLArguments.h		GoogleToolboxForMac-f0850809-umbrella.h
 
 ## Author
 
