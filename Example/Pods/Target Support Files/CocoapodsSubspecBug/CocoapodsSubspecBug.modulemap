@@ -1,0 +1,6 @@
+framework module CocoapodsSubspecBug {
+  umbrella header "CocoapodsSubspecBug-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -26,7 +26,6 @@ TODO: Add long description of the pod here.
 
   s.subspec 'One' do |sp|
     sp.dependency 'Root/One'
-#    sp.dependency 'GoogleToolboxForMac/NSData+zlib', '~> 2.1'
   end
 
   s.subspec 'Two' do |sp|

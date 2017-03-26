@@ -1,11 +1,16 @@
+# Create a Specs.git repo, push Root.podspec to it and add its source here
+source 'sso://user/paulbeusterien/Specs.git'
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
+
+target 'Root_Example' do
+  pod 'Root/One', :path => '../'
+end
 
 target 'CocoapodsSubspecBug_Example' do
   pod 'CocoapodsSubspecBug/Two', :path => '../'
 
-  target 'CocoapodsSubspecBug_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

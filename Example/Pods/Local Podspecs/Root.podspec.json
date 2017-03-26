@@ -1,8 +1,8 @@
 {
-  "name": "CocoapodsSubspecBug",
+  "name": "Root",
   "version": "0.1.0",
-  "summary": "A short description of CocoapodsSubspecBug.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Root is a demonstration dependendent pod.",
+  "description": "Root is a demonstration dependent pod for CocoapodsSubspecBug",
   "homepage": "https://github.com/paulb777/CocoapodsSubspecBug",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/paulb777/CocoapodsSubspecBug.git",
-    "tag": "CSB-v0.1.0"
+    "tag": "Root-v0.1.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,19 +23,7 @@
     {
       "name": "One",
       "dependencies": {
-        "Root/One": [
-
-        ]
-      }
-    },
-    {
-      "name": "Two",
-      "source_files": "CocoapodsSubspecBug/Classes/**/*",
-      "dependencies": {
-        "CocoapodsSubspecBug/One": [
-
-        ],
-        "GoogleToolboxForMac/NSDictionary+URLArguments": [
+        "GoogleToolboxForMac/NSData+zlib": [
           "~> 2.1"
         ]
       }
