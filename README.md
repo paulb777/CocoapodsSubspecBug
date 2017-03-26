@@ -22,7 +22,7 @@ pod "CocoapodsSubspecBug"
 
 ## Author
 
-Paul Beusterien, paulbeusterien@google.com
+Paul Beusterien
 
 ## License
 
