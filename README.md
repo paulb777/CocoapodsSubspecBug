@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project demonstrates a failure of Cocoapods to create the correct framework header paths when merging subspecs in an Xcode workspace generated from two podspecs.
+This project demonstrates a failure of Cocoapods to create the correct framework header paths when merging subspecs in an Xcode workspace generated from two podspecs. Reported in https://github.com/CocoaPods/CocoaPods/issues/6584.
 
 ## Reproduction
 
